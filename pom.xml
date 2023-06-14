@@ -10,6 +10,7 @@
     <modules>
         <module>base-domain</module>
         <module>order-service</module>
+        <module>payment-service</module>
     </modules>
     <version>1.0-SNAPSHOT</version>
 
