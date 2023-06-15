@@ -17,7 +17,7 @@ There are three microservices: \
 
 Here's the diagram with our architecture:
 
-![image](https://raw.githubusercontent.com/aasmc/microservices-saga-kafka/master/arch.png)
+![image](https://github.com/aasmc/microservices-saga-kafka/blob/master/arch.png)
 
 (1) `order-service` send a new `Order` -> `status == NEW` \
 (2) `payment-service` and `stock-service` receive `Order` and handle it by performing a local transaction on the data \
